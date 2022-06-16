@@ -24,27 +24,75 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 72,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Birthday"},
+      { name: "Legendary" },
+     
     ],
   },
+
+  {
+    growEditionSizeTo: 110,
+    layersOrder: [
+      { name: "Birthday"},
+      { name: "Background" },
+      { name: "Rare Background" },
+      { name: "Shadow" },
+      { name: "Shoes" },
+      { name: "Rare Moji" },
+      { name: "Hands" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+      { name: "Object" },
+    
+    ],
+  },
+
+  {
+    growEditionSizeTo: 500,
+    layersOrder: [
+      { name: "Birthday"},
+      { name: "Rare Background" },
+      { name: "Shadow" },
+      { name: "Shoes" },
+      { name: "Rare Mojis" },
+      { name: "Hands" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+      { name: "Object" }, 
+    ],
+  },
+
+  {
+    growEditionSizeTo: 7000,
+    layersOrder: [
+      { name: "Birthday"},
+      { name: "Background" },
+      { name: "Shadow" },
+      { name: "Shoes" },
+      { name: "Accessories" },
+      { name: "MOJI" },
+      { name: "Hands" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+      { name: "Object" },
+    ],
+  },
+
+
+
+  
 ];
 
-const shuffleLayerConfigurations = false;
+const shuffleLayerConfigurations = true;
 
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
-  smoothing: false,
+  width: 4500,
+  height: 4500,
+  smoothing: true,
 };
 
 const gif = {
